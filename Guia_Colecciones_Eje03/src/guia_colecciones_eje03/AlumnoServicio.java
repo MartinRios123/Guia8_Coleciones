@@ -17,10 +17,11 @@ public class AlumnoServicio {
     public void pedirInformacion(){
         int nota;
         String opcion;
-        ArrayList<Integer> notas = null;
         String nombre;
+        ArrayList<Integer> notas;
         
         do{
+            notas = new ArrayList();
             System.out.println("Ingrese el nombre de un alumno:"); 
             nombre = leer.next().toUpperCase();
             for (int i = 0; i < 3; i++) {

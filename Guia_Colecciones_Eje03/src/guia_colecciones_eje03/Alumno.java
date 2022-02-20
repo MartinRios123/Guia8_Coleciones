@@ -30,10 +30,5 @@ public class Alumno {
     public void setNotas(ArrayList<Integer> notas) {
         this.notas = notas;
     }
-
-    void add(int nota) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
-    
+   
 }
