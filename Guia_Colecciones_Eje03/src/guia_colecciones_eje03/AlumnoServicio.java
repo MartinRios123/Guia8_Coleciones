@@ -37,7 +37,7 @@ public class AlumnoServicio {
         }while(!opcion.equals("N"));
     }
     
-    public void crearAlumno(String nombre, ArrayList<Integer> notas){
+    public void crearAlumno(String nombre, ArrayList notas){
         Alumno alumno = new Alumno();
         
         alumno.setNombre(nombre);
